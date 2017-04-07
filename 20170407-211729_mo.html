@@ -1,0 +1,266 @@
+<!DOCTYPE html><html lang = "en"><head><meta charset = "utf-8"><meta http - equiv = "X-UA-Compatible" content = "IE=edge"><meta name = "viewport" content = "width=device-width, initial-scale=1"><meta name = "description" content = ""><meta name = "author" content = ""><title>Report - Mursaat Overseer</title><link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity = "sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin = "anonymous"><link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity = "sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin = "anonymous"><script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script><script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity = "sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin = "anonymous"></script><script src = "https://cdn.plot.ly/plotly-latest.min.js"></script><style>
+.nav-tabs > li, .nav-pills > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+     zoom:1; /* hasLayout ie7 trigger */
+}
+
+.nav-tabsc, .nav-pillsc {
+    text-align:center;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color:black;
+    background-color:#f2f2f2;
+}
+</style></head><body><div class = "container"><div class="container"><div class="row"><center><h1>Mursaat Overseer</h1><p class="text text-muted">in 1.0 seconds</p><p/><table class="table" style="width:auto;">
+<tr><td style="width: 100px; border: 1px solid #ddd;"><img src="https://wiki.guildwars2.com/images/f/f4/Chronomancer_tango_icon_20px.png" alt="Chronomancer" title="Chronomancer" height="18" width="18"><img src="https://wiki.guildwars2.com/images/5/54/Condition_Damage.png" alt="Condition Damage" title="Condition Damage - 10" height="18" width="18"><img src="https://wiki.guildwars2.com/images/1/12/Toughness.png" alt="Toughness" title="Toughness - 10" height="18" width="18"><img src="https://wiki.guildwars2.com/images/8/81/Healing_Power.png" alt="Healing Power" title="Healing Power - 10" height="18" width="18"><br/>Vanessa Li</td></tr>
+<tr><td style="width: 100px; border: 1px solid #ddd;"><img src="https://wiki.guildwars2.com/images/4/4a/Tempest_tango_icon_20px.png" alt="Tempest" title="Tempest" height="18" width="18"><br/>Craina Ely</td></tr>
+</table>
+</center></div></div><ul class = "nav nav-pills" style="text-align:center;">
+<li class="active"><a data-toggle="tab" href="#s_glob">Stats</a></li>
+<li><a data-toggle="tab" href="#g_glob">Damage and Mechanics</a></li>
+<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Boon Uptime<span class="caret"></span></a><ul class="dropdown-menu"><li><a data-toggle="tab" href="#p_glob2395326709983598048"><img src="https://wiki.guildwars2.com/images/4/4a/Tempest_tango_icon_20px.png" alt="Tempest" title="Tempest" height="18" width="18"> Craina Elysia</a></li>
+<li><a data-toggle="tab" href="#p_glob2395622392678437504"><img src="https://wiki.guildwars2.com/images/f/f4/Chronomancer_tango_icon_20px.png" alt="Chronomancer" title="Chronomancer" height="18" width="18"> Vanessa Lichtenfels</a></li>
+</ul></li><li><a data-toggle="tab" href="#bs_glob">Boon Stats</a></li>
+<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Player Summary<span class="caret"></span></a><ul class="dropdown-menu"><li><a data-toggle="tab" href="#ps_glob2395326709983598048"><img src="https://wiki.guildwars2.com/images/4/4a/Tempest_tango_icon_20px.png" alt="Tempest" title="Tempest" height="18" width="18"> Craina Elysia</a></li>
+<li><a data-toggle="tab" href="#ps_glob2395622392678437504"><img src="https://wiki.guildwars2.com/images/f/f4/Chronomancer_tango_icon_20px.png" alt="Chronomancer" title="Chronomancer" height="18" width="18"> Vanessa Lichtenfels</a></li>
+</ul></li></ul>
+<div class="tab-content">
+<div id="g_glob" class="tab-pane fade">
+<center><div id="myDiv_glob" style="width: 1100px ; height: 500px;"></div></center><script>
+var trace0 = {
+	x:[1],
+y: [nan],
+text: [0],
+mode: 'lines',
+	hoverinfo: 'text',
+ name : 'Group DPS', line : {color: 'rgb(220, 220, 220)',shape : 'spline',width : 1,smoothing:1.3},fill : 'tozeroy'}; var trace1 = { x:[1], y: [0],mode: 'lines', hoverinfo: 'y+name', name: 'Craina Elysia',line: { color: 'rgb(246, 138, 135)', shape: 'spline', width : 2 } };var trace2 = { x:[1], y: [0],mode: 'lines', hoverinfo: 'y+name', name: 'Vanessa Lichtenfels',line: { color: 'rgb(182, 121, 213)', shape: 'spline', width : 2 } };var data = [trace0, trace1, trace2];var layout = { xaxis: {title: 'Encounter time, s'	},yaxis : {title: 'DPS'},margin : {   t: 30,   b : 50,   l : 50,   r : 50}, legend: {"orientation": "h"}}; Plotly.newPlot('myDiv_glob', data, layout);</script></div>
+<div id="s_glob" class="tab-pane fade in active">
+<table class="table table-condensed"
+><thead><tr><th></th><th>Character</th><th>Display Name</th><th>Boss DPS</th><th>Physical</th><th>Condi</th><th>&nbsp;&nbsp;&nbsp;&nbsp;</th><th>All DPS</th><th>Physical</th><th>Condi</th><th>&nbsp;&nbsp;&nbsp;&nbsp;</th><th>Wasted</th><th><img src="https://wiki.guildwars2.com/images/9/95/Critical_Chance.png" alt="Crits" title="Crits" height="18" width="18"></th><th><img src="https://wiki.guildwars2.com/images/thumb/2/2b/Superior_Rune_of_the_Scholar.png/40px-Superior_Rune_of_the_Scholar.png" alt="Scholar" title="Scholar" height="18" width="18"></th><th><img src="https://wiki.guildwars2.com/images/1/1c/Bowl_of_Seaweed_Salad.png" alt="Seaweed Salad" title="Seaweed Salad" height="18" width="18"></th><th><img src="https://wiki.guildwars2.com/images/c/c6/Downed_enemy.png" alt="Downed" title="Downed" height="18" width="18"></th></tr></thead>
+<tbody>
+<tr><td><img src="https://wiki.guildwars2.com/images/4/4a/Tempest_tango_icon_20px.png" alt="Tempest" title="Tempest" height="18" width="18"></td><td>Craina Elysia</td><td>Kelle.8209</td><td>0</td><td>0</td><td>0</td><td></td><td>0</td><td>0</td><td>0</td><td></td><td>0.0s</td><td>0%</td><td>0%</td><td>0%</td><td>0</td><td></td></tr>
+<tr><td><img src="https://wiki.guildwars2.com/images/f/f4/Chronomancer_tango_icon_20px.png" alt="Chronomancer" title="Chronomancer" height="18" width="18"></td><td>Vanessa Lichtenfels</td><td>Superluigi.1062</td><td>0</td><td>0</td><td>0</td><td></td><td>0</td><td>0</td><td>0</td><td></td><td>0.0s</td><td>0%</td><td>0%</td><td>0%</td><td>0</td><td></td></tr>
+</tbody></table>
+</div>
+<div id="p_glob2395326709983598048" class="tab-pane">
+<center><div id="myDivB2395326709983598048_glob" style="width: 900px ; height: 310px;"></div></center><script>
+var traceB1 = {
+	x:[0, 1],
+y: [0, 0],
+text: [0, 0],
+mode: 'lines',
+	hoverinfo: 'text+name',
+ name : 'Protection', line : { width : 1 },fill : 'tozeroy', visible: 'legendonly' }; var traceB2 = {
+	x:[0, 1],
+y: [0, 0],
+text: [0, 0],
+mode: 'lines',
+	hoverinfo: 'text+name',
+ name : 'Fury', line : { width : 1 },fill : 'tozeroy', visible: 'legendonly' }; var traceB3 = {
+	x:[0, 1],
+y: [0, 0],
+text: [0, 0],
+mode: 'lines',
+	hoverinfo: 'text+name',
+ name : 'Might', line : { width : 1 },fill : 'tozeroy', visible: 'legendonly' }; var traceB4 = {
+	x:[0, 1],
+y: [0, 0],
+text: [0, 0],
+mode: 'lines',
+	hoverinfo: 'text+name',
+ name : 'Quickness', line : { width : 1 },fill : 'tozeroy', visible: 'legendonly' }; var traceB5 = {
+	x:[0, 1],
+y: [0, 0],
+text: [0, 0],
+mode: 'lines',
+	hoverinfo: 'text+name',
+ name : 'Sun Spirit', line : { width : 1 },fill : 'tozeroy', visible: 'legendonly' }; var traceB6 = {
+	x:[0, 1],
+y: [0, 0],
+text: [0, 0],
+mode: 'lines',
+	hoverinfo: 'text+name',
+ name : 'Spirit of Frost', line : { width : 1 },fill : 'tozeroy', visible: 'legendonly' }; var traceB7 = {
+	x:[0, 1],
+y: [0, 0],
+text: [0, 0],
+mode: 'lines',
+	hoverinfo: 'text+name',
+ name : 'Spotter', line : { width : 1 },fill : 'tozeroy', visible: 'legendonly' }; var traceB8 = {
+	x:[0, 1],
+y: [0, 0],
+text: [0, 0],
+mode: 'lines',
+	hoverinfo: 'text+name',
+ name : 'Empower Allies', line : { width : 1 },fill : 'tozeroy', visible: 'legendonly' }; var traceB9 = {
+	x:[0, 1],
+y: [0, 0],
+text: [0, 0],
+mode: 'lines',
+	hoverinfo: 'text+name',
+ name : 'Banner of Strength', line : { width : 1 },fill : 'tozeroy', visible: 'legendonly' }; var traceB10 = {
+	x:[0, 1],
+y: [0, 0],
+text: [0, 0],
+mode: 'lines',
+	hoverinfo: 'text+name',
+ name : 'Banner of Discipline', line : { width : 1 },fill : 'tozeroy', visible: 'legendonly' }; var traceB11 = {
+	x:[0, 1],
+y: [0, 0],
+text: [0, 0],
+mode: 'lines',
+	hoverinfo: 'text+name',
+ name : 'Alacrity', line : { width : 1 },fill : 'tozeroy', visible: 'legendonly' }; var traceB12 = {
+	x:[0, 1],
+y: [0, 0],
+text: [0, 0],
+mode: 'lines',
+	hoverinfo: 'text+name',
+ name : 'Glyph of Empowerment', line : { width : 1 },fill : 'tozeroy', visible: 'legendonly' }; var traceB13 = {
+	x:[0, 1],
+y: [0, 0],
+text: [0, 0],
+mode: 'lines',
+	hoverinfo: 'text+name',
+ name : 'Grace of the Land', line : { width : 1 },fill : 'tozeroy', visible: 'legendonly' }; var data = [traceB1, traceB2, traceB3, traceB4, traceB5, traceB6, traceB7, traceB8, traceB9, traceB10, traceB11, traceB12, traceB13];var layout = { title: 'Click on boon to see uptime on Craina Elysia', xaxis: {title: 'Encounter time, s'	},yaxis : {showgrid: false, zeroline: false, showline : false, ticks : '', showticklabels : false}, margin : {   t: 60, b : 50, l : 50, r : 50}, legend: {"orientation": "h"}}; Plotly.newPlot('myDivB2395326709983598048_glob', data, layout);</script></div>
+<div id="p_glob2395622392678437504" class="tab-pane">
+<center><div id="myDivB2395622392678437504_glob" style="width: 900px ; height: 310px;"></div></center><script>
+var traceB1 = {
+	x:[0, 1],
+y: [0, 0],
+text: [0, 0],
+mode: 'lines',
+	hoverinfo: 'text+name',
+ name : 'Protection', line : { width : 1 },fill : 'tozeroy', visible: 'legendonly' }; var traceB2 = {
+	x:[0, 1],
+y: [0, 0],
+text: [0, 0],
+mode: 'lines',
+	hoverinfo: 'text+name',
+ name : 'Fury', line : { width : 1 },fill : 'tozeroy', visible: 'legendonly' }; var traceB3 = {
+	x:[0, 1],
+y: [0, 0],
+text: [0, 0],
+mode: 'lines',
+	hoverinfo: 'text+name',
+ name : 'Might', line : { width : 1 },fill : 'tozeroy', visible: 'legendonly' }; var traceB4 = {
+	x:[0, 1],
+y: [0, 0],
+text: [0, 0],
+mode: 'lines',
+	hoverinfo: 'text+name',
+ name : 'Quickness', line : { width : 1 },fill : 'tozeroy', visible: 'legendonly' }; var traceB5 = {
+	x:[0, 1],
+y: [0, 0],
+text: [0, 0],
+mode: 'lines',
+	hoverinfo: 'text+name',
+ name : 'Sun Spirit', line : { width : 1 },fill : 'tozeroy', visible: 'legendonly' }; var traceB6 = {
+	x:[0, 1],
+y: [0, 0],
+text: [0, 0],
+mode: 'lines',
+	hoverinfo: 'text+name',
+ name : 'Spirit of Frost', line : { width : 1 },fill : 'tozeroy', visible: 'legendonly' }; var traceB7 = {
+	x:[0, 1],
+y: [0, 0],
+text: [0, 0],
+mode: 'lines',
+	hoverinfo: 'text+name',
+ name : 'Spotter', line : { width : 1 },fill : 'tozeroy', visible: 'legendonly' }; var traceB8 = {
+	x:[0, 1],
+y: [0, 0],
+text: [0, 0],
+mode: 'lines',
+	hoverinfo: 'text+name',
+ name : 'Empower Allies', line : { width : 1 },fill : 'tozeroy', visible: 'legendonly' }; var traceB9 = {
+	x:[0, 1],
+y: [0, 0],
+text: [0, 0],
+mode: 'lines',
+	hoverinfo: 'text+name',
+ name : 'Banner of Strength', line : { width : 1 },fill : 'tozeroy', visible: 'legendonly' }; var traceB10 = {
+	x:[0, 1],
+y: [0, 0],
+text: [0, 0],
+mode: 'lines',
+	hoverinfo: 'text+name',
+ name : 'Banner of Discipline', line : { width : 1 },fill : 'tozeroy', visible: 'legendonly' }; var traceB11 = {
+	x:[0, 1],
+y: [0, 0],
+text: [0, 0],
+mode: 'lines',
+	hoverinfo: 'text+name',
+ name : 'Alacrity', line : { width : 1 },fill : 'tozeroy', visible: 'legendonly' }; var traceB12 = {
+	x:[0, 1],
+y: [0, 0],
+text: [0, 0],
+mode: 'lines',
+	hoverinfo: 'text+name',
+ name : 'Glyph of Empowerment', line : { width : 1 },fill : 'tozeroy', visible: 'legendonly' }; var traceB13 = {
+	x:[0, 1],
+y: [0, 0],
+text: [0, 0],
+mode: 'lines',
+	hoverinfo: 'text+name',
+ name : 'Grace of the Land', line : { width : 1 },fill : 'tozeroy', visible: 'legendonly' }; var data = [traceB1, traceB2, traceB3, traceB4, traceB5, traceB6, traceB7, traceB8, traceB9, traceB10, traceB11, traceB12, traceB13];var layout = { title: 'Click on boon to see uptime on Vanessa Lichtenfels', xaxis: {title: 'Encounter time, s'	},yaxis : {showgrid: false, zeroline: false, showline : false, ticks : '', showticklabels : false}, margin : {   t: 60, b : 50, l : 50, r : 50}, legend: {"orientation": "h"}}; Plotly.newPlot('myDivB2395622392678437504_glob', data, layout);</script></div>
+<div id="ps_glob2395326709983598048" class="tab-pane">
+<div class="container-fluid">
+<div class="row"><div class="col-sm-8"><ul class="nav nav-tabs"><li class="active"><a data-toggle="tab" href="#pss_glob23953267099835980480"><img src="https://wiki.guildwars2.com/images/4/4a/Tempest_tango_icon_20px.png" alt="Tempest" title="Tempest" height="18" width="18"> Craina Elysia</li><li><a data-toggle="tab" href="#psid_glob2395326709983598048">Incoming damage</a></li></ul><div class="tab-content">
+<div id="pss_glob23953267099835980480" class="tab-pane fade in active"><table class="table table-condensed"><thead><tr><th>Skill</th><th>Damage</th><th></th><th>Hits</th><th>Min</th><th>Avg</th><th>Max</th><th>Crit</th><th>Flank</th><th>Glance</th></tr></thead><tbody></tbody></table></div><div id="psid_glob2395326709983598048" class="tab-pane fade"><table class="table table-condensed"><thead><tr><th>Skill</th><th>Damage</th><th></th><th>Hits</th><th>Min</th><th>Avg</th><th>Max</th><th>Crit</th><th>Flank</th><th>Glance</th></tr></thead><tbody></tbody></table></div></div></div><div class="col-sm-4"><h4>Mechanics</h4><ul class="nav nav-tabs">
+  <li class="active"><a data-toggle="tab" href="#mf_glob2395326709983598048">Failed</a></li>
+  <li><a data-toggle="tab" href="#mn_glob2395326709983598048">Neutral</a></li>
+</ul>
+<div class="tab-content">
+<div id="mf_glob2395326709983598048" class="tab-pane fade in active">
+<table class="table table-condensed"></table></div>
+<div id="mn_glob2395326709983598048" class="tab-pane fade">
+<table class="table table-condensed"></table></div>
+</div><h4>Stats</h4><ul class="nav nav-tabs">
+  <li class="active"><a data-toggle="tab" href="#pso_glob2395326709983598048">Offense</a></li>
+  <li><a data-toggle="tab" href="#psd_glob2395326709983598048">Defense</a></li>
+  <li><a data-toggle="tab" href="#psu_glob2395326709983598048">Support</a></li>
+</ul>
+<div class="tab-content">
+<div id="pso_glob2395326709983598048" class="tab-pane fade in active">
+<table class="table table-condensed"><tr><td>Criticals</td><td>0%</tr></td><tr><td>Moving while hitting</td><td>0%</tr></td><tr><td>Health > 90%</td><td>0%</tr></td><tr><td>Glance Rate</td><td>0%</tr></td><tr><td>Flanking</td><td>0%</tr></td><tr><td>Casting Time Wasted</td><td>0s</tr></td><tr><td>Missed</td><td>0</tr></td><tr><td>Interrupted</td><td>0</tr></td><tr><td>Boons Stripped</td><td>0</tr></td></table></div>
+<div id="psd_glob2395326709983598048" class="tab-pane fade">
+<table class="table table-condensed"><tr><td>Damage Taken</td><td>0</tr></td><tr><td>Downed</td><td>0</tr></td><tr><td>Death</td><td> </tr></td><tr><td>Dodges</td><td>0</tr></td><tr><td>Evades</td><td>0</tr></td><tr><td>Blocks</td><td>0</tr></td></table></div>
+<div id="psu_glob2395326709983598048" class="tab-pane fade">
+<table class="table table-condensed"><tr><td>Resurrects</td><td>0</tr></td><tr><td>Ressurect Time</td><td>0s</tr></td><tr><td>Condis Cleanced</td><td>0</tr></td></table></div></div>
+</div></div></div></div><div id="ps_glob2395622392678437504" class="tab-pane">
+<div class="container-fluid">
+<div class="row"><div class="col-sm-8"><ul class="nav nav-tabs"><li class="active"><a data-toggle="tab" href="#pss_glob23956223926784375040"><img src="https://wiki.guildwars2.com/images/f/f4/Chronomancer_tango_icon_20px.png" alt="Chronomancer" title="Chronomancer" height="18" width="18"> Vanessa Lichtenfels</li><li><a data-toggle="tab" href="#psid_glob2395622392678437504">Incoming damage</a></li></ul><div class="tab-content">
+<div id="pss_glob23956223926784375040" class="tab-pane fade in active"><table class="table table-condensed"><thead><tr><th>Skill</th><th>Damage</th><th></th><th>Hits</th><th>Min</th><th>Avg</th><th>Max</th><th>Crit</th><th>Flank</th><th>Glance</th></tr></thead><tbody></tbody></table></div><div id="psid_glob2395622392678437504" class="tab-pane fade"><table class="table table-condensed"><thead><tr><th>Skill</th><th>Damage</th><th></th><th>Hits</th><th>Min</th><th>Avg</th><th>Max</th><th>Crit</th><th>Flank</th><th>Glance</th></tr></thead><tbody></tbody></table></div></div></div><div class="col-sm-4"><h4>Mechanics</h4><ul class="nav nav-tabs">
+  <li class="active"><a data-toggle="tab" href="#mf_glob2395622392678437504">Failed</a></li>
+  <li><a data-toggle="tab" href="#mn_glob2395622392678437504">Neutral</a></li>
+</ul>
+<div class="tab-content">
+<div id="mf_glob2395622392678437504" class="tab-pane fade in active">
+<table class="table table-condensed"></table></div>
+<div id="mn_glob2395622392678437504" class="tab-pane fade">
+<table class="table table-condensed"></table></div>
+</div><h4>Stats</h4><ul class="nav nav-tabs">
+  <li class="active"><a data-toggle="tab" href="#pso_glob2395622392678437504">Offense</a></li>
+  <li><a data-toggle="tab" href="#psd_glob2395622392678437504">Defense</a></li>
+  <li><a data-toggle="tab" href="#psu_glob2395622392678437504">Support</a></li>
+</ul>
+<div class="tab-content">
+<div id="pso_glob2395622392678437504" class="tab-pane fade in active">
+<table class="table table-condensed"><tr><td>Criticals</td><td>0%</tr></td><tr><td>Moving while hitting</td><td>0%</tr></td><tr><td>Health > 90%</td><td>0%</tr></td><tr><td>Glance Rate</td><td>0%</tr></td><tr><td>Flanking</td><td>0%</tr></td><tr><td>Casting Time Wasted</td><td>0s</tr></td><tr><td>Missed</td><td>0</tr></td><tr><td>Interrupted</td><td>0</tr></td><tr><td>Boons Stripped</td><td>0</tr></td></table></div>
+<div id="psd_glob2395622392678437504" class="tab-pane fade">
+<table class="table table-condensed"><tr><td>Damage Taken</td><td>0</tr></td><tr><td>Downed</td><td>0</tr></td><tr><td>Death</td><td> </tr></td><tr><td>Dodges</td><td>0</tr></td><tr><td>Evades</td><td>0</tr></td><tr><td>Blocks</td><td>0</tr></td></table></div>
+<div id="psu_glob2395622392678437504" class="tab-pane fade">
+<table class="table table-condensed"><tr><td>Resurrects</td><td>0</tr></td><tr><td>Ressurect Time</td><td>0s</tr></td><tr><td>Condis Cleanced</td><td>0</tr></td></table></div></div>
+</div></div></div></div><div id="bs_glob" class="tab-pane fade">
+<table class="table table-condensed"
+><thead><tr><th></th><th>Character</th><th><img src="https://wiki.guildwars2.com/images/6/6c/Protection.png" alt="Protection" title="Protection" height="18" width="18"></th><th><img src="https://wiki.guildwars2.com/images/4/46/Fury.png" alt="Fury" title="Fury" height="18" width="18"></th><th><img src="https://wiki.guildwars2.com/images/7/7c/Might.png" alt="Might" title="Might" height="18" width="18"></th><th><img src="https://wiki.guildwars2.com/images/b/b4/Quickness.png" alt="Quickness" title="Quickness" height="18" width="18"></th><th><img src="https://wiki.guildwars2.com/images/thumb/d/dd/Sun_Spirit.png/48px-Sun_Spirit.png" alt="Sun Spirit" title="Sun Spirit" height="18" width="18"></th><th><img src="https://wiki.guildwars2.com/images/thumb/c/c6/Frost_Spirit.png/40px-Frost_Spirit.png" alt="Spirit of Frost" title="Spirit of Frost" height="18" width="18"></th><th><img src="https://wiki.guildwars2.com/images/thumb/b/b0/Spotter.png/40px-Spotter.png" alt="Spotter" title="Spotter" height="18" width="18"></th><th><img src="https://wiki.guildwars2.com/images/thumb/4/4c/Empower_Allies.png/40px-Empower_Allies.png" alt="Empower Allies" title="Empower Allies" height="18" width="18"></th><th><img src="https://wiki.guildwars2.com/images/thumb/e/e1/Banner_of_Strength.png/48px-Banner_of_Strength.png" alt="Banner of Strength" title="Banner of Strength" height="18" width="18"></th><th><img src="https://wiki.guildwars2.com/images/thumb/5/5f/Banner_of_Discipline.png/48px-Banner_of_Discipline.png" alt="Banner of Discipline" title="Banner of Discipline" height="18" width="18"></th><th><img src="https://wiki.guildwars2.com/images/4/4c/Alacrity.png" alt="Alacrity" title="Alacrity" height="18" width="18"></th><th><img src="https://wiki.guildwars2.com/images/thumb/f/f0/Glyph_of_Empowerment.png/48px-Glyph_of_Empowerment.png" alt="Glyph of Empowerment" title="Glyph of Empowerment" height="18" width="18"></th><th><img src="https://wiki.guildwars2.com/images/thumb/4/45/Grace_of_the_Land.png/40px-Grace_of_the_Land.png" alt="Grace of the Land" title="Grace of the Land" height="18" width="18"></th></tr></thead>
+<tbody>
+<tr><td><img src="https://wiki.guildwars2.com/images/4/4a/Tempest_tango_icon_20px.png" alt="Tempest" title="Tempest" height="18" width="18"></td><td>Craina Elysia</td><td>0%</td><td>0%</td><td>0.0</td><td>0%</td><td>0%</td><td>0%</td><td>0%</td><td>0%</td><td>0%</td><td>0%</td><td>0%</td><td>0%</td><td>0.0</td></tr>
+<tr><td><img src="https://wiki.guildwars2.com/images/f/f4/Chronomancer_tango_icon_20px.png" alt="Chronomancer" title="Chronomancer" height="18" width="18"></td><td>Vanessa Lichtenfels</td><td>0%</td><td>0%</td><td>0.0</td><td>0%</td><td>0%</td><td>0%</td><td>0%</td><td>0%</td><td>0%</td><td>0%</td><td>0%</td><td>0%</td><td>0.0</td></tr>
+</tbody></table>
+</div>
+</div>
+<p></p><p class="small text-muted text-right">raid_heroes-1.1-0-gbecefce by MaxL | 20170407-211729.evtc | EVTC20170223 | 17172(0x4314)</p></div></body></html>
